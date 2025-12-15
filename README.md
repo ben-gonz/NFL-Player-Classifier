@@ -8,9 +8,6 @@ This repository contains a Jupyter Notebook script for building and training an 
 - **Model**: Fine-tunes `google/vit-base-patch16-224-in21k` for multi-class classification.
 - **Training**: Uses PyTorch Lightning for efficient training with mixed precision on CPU.
 - **Evaluation**: Computes predictions on validation batches and new test images, with accuracy metrics and visualizations.
-- **Example Terms**: Pre-configured for NFL players like Justin Herbert, Christian McCaffrey, Jason Myers, Nico Collins, and Devin Neal.
+- **Example Terms**: Pre-configured for NFL players like Justin Herbert, Christian McCaffrey, Jason Myers, Nico Collins, and Devin Neal (all stars in my fantasy lineup this year with a top 3 league performance).
 
-## Prerequisites
-- Python 3.8+
-- Jupyter Notebook or Lab
-- Installed dependencies (run in the notebook):
+This model can be trained on any other test image set (e.g. dog breeds, plants, animals, materials, etc.)
